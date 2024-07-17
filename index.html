@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator</title>
+    <!-- custom style sheet -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="heading">
+                <h1>Age calculator</h1>
+            </div> <hr>
+        </header>
+        <main>
+            <div class="row">
+            <div class="col-md-4">
+                <label for="date">Date</label> <br>
+                <input type="text" id="date" minlength="1" maxlength="2" placeholder="dd" required>
+            </div>
+            <div class="col-md-4">
+                <label for="month">Month</label> <br>
+                <input type="text" id="month" minlength="1" maxlength="2" placeholder="mm" required >
+            </div>
+            <div class="col-md-4">
+                <label for="year">Year</label>  <br>
+                <input type="text" id="year" minlength="4" maxlength="4" placeholder="yyyy" required>
+            </div>
+            </div>
+            <div class="btn">
+              <input type="button" value="submit" id="submitBtn" onclick="btnSubmit()" 
+              style="background-color: blue; color: aliceblue; border: 2px solid blue;">
+            </div>
+            <div id="text">
+            </div>
+        </main>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
