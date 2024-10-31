@@ -73,4 +73,71 @@ body{
 /* Add more nth-child selectors as needed for a varied layout */
 .highlight-border {
     border: 5px solid goldenrod;
+     margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.container-fluid{
+    max-width: 500px;
+    height: 50vh;
+    background-color: aliceblue;
+    margin: 100px auto;
+    padding: 0%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    display: block;
+    text-align: center;
+    padding: 0;
+    color: navy;
+    line-height: 1.5;
+    overflow: hidden;
+}
+.row{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+input{
+    width: 65px;
+    height: 25px;
+    border: 2px solid cadetblue;
+    margin: 10px;
+    color: cadetblue;
+}
+label{
+    margin: 10px;
+    color: blue;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#submitBtn{
+    padding: 5px;
+    background-color: blue; 
+    color: aliceblue;
+    outline: none;
+    border-radius: 2px;
+    text-align: center;
+    align-items: center;
+}
+input:hover{
+    border: 2px solid goldenrod;
+    color: cadetblue;
+}
+#text{
+    display: block;
+    overflow: hidden;
+    /* margin: 10px; */
+    padding-bottom:20px ;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: navy;
 }
